@@ -1,0 +1,50 @@
+body{
+  text-align: center;
+  background-color: #393E46;
+}
+
+.container1{
+  display: inline-block;
+  padding: 100px 50px 120px 50px;
+}
+
+.container{
+  padding-top: 50px;
+}
+
+h1{
+      color: #4ECCA3;
+      font-family: 'Kaisei HarunoUmi', serif;
+      font-size: 5rem;
+      font-style: normal;
+      font-weight: bolder;
+}
+
+h2{
+      color: #4ECCA3;
+      font-family: 'Satisfy';
+      font-size: 2rem;
+}
+
+img{
+  width:10rem;
+}
+
+a{
+  color: #4ECCA3;
+  text-decoration:none;
+
+}
+
+@media screen and (max-width: 600px)
+{
+  .container1{
+    display: inline-block;
+    padding: 20px 50px 20px 50px;
+  }
+
+  .container{
+    padding-top: 20px;
+  }
+
+}
