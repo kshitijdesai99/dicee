@@ -1,0 +1,60 @@
+body{
+  text-align: center;
+  background-color: #393E46;
+}
+
+.dice_box{
+  padding: 100px 10px 120px 10px;
+}
+
+h1{
+      color: #4ECCA3;
+      font-family: 'Kaisei HarunoUmi', serif;
+      font-size: 5rem;
+      font-style: normal;
+      font-weight: bolder;
+}
+
+h2{
+      color: #4ECCA3;
+      font-family: 'Satisfy';
+      font-size: 2rem;
+}
+
+img{
+  width:10rem;
+}
+
+a{
+  color: #4ECCA3;
+  text-decoration:none;
+}
+
+.Upper_Box{
+  padding-top: 50px;
+}
+
+
+@media screen and (max-width: 1000px){
+  .dice_box{
+    padding: 40px 10px 20px 10px;
+  }
+
+  .Upper_Box{
+    padding-top: 10px;
+  }
+
+  h1{
+        color: #4ECCA3;
+        font-family: 'Kaisei HarunoUmi', serif;
+        font-size: 4rem;
+        font-style: normal;
+        font-weight: bolder;
+  }
+
+  #footer{
+    padding-top: 50px;
+  }
+
+
+}
