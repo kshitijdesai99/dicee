@@ -6,7 +6,7 @@ image1.setAttribute("src",randomSorceImg);
 
 let random2 = Math.floor(Math.random()*6)+1;
 let randomDiceImage2 = "dice"+random2+".png";
-let randomSorceImg2 = "images/"+randomDiceImage2;
+let randomSorceImg2 = ""+randomDiceImage2;
 document.querySelectorAll("img")[1].setAttribute("src",randomSorceImg2);
 
 
