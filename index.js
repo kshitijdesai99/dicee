@@ -1,13 +1,11 @@
 let random1 = Math.floor(Math.random()*6)+1;
 let randomDiceImage = "dice"+random1+".png";
-let randomSorceImg = ""+randomDiceImage;
-let image1 = document.querySelectorAll("img")[0];
-image1.setAttribute("src",randomSorceImg);
+document.querySelector("img").setAttribute("src",randomDiceImage);
+
 
 let random2 = Math.floor(Math.random()*6)+1;
 let randomDiceImage2 = "dice"+random2+".png";
-let randomSorceImg2 = ""+randomDiceImage2;
-document.querySelectorAll("img")[1].setAttribute("src",randomSorceImg2);
+document.querySelectorAll("img")[1].setAttribute("src",randomDiceImage2);
 
 
 // if player1 wins
